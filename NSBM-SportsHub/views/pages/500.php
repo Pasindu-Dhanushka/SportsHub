@@ -1,0 +1,1 @@
+<?php require __DIR__ . '/../partials/header.php'; ?><section class="error-page"><div class="error-card panel"><span class="error-code">500</span><h1>Something went wrong.</h1><p>The application hit an unexpected error. Please try again.</p><a class="btn btn-primary" href="<?= e(url('home')) ?>">Return home</a></div></section><?php require __DIR__ . '/../partials/footer.php'; ?>
